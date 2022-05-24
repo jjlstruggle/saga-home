@@ -1,8 +1,8 @@
 # Site
 title: saga’home
 subtitle: "welcome to my blog"
-description: ""
-keywords:
+description: "saga的个人博客"
+keywords: saga-home，saga，前端，
 author: saga
 language: zh-CN
 timezone: ""
@@ -137,3 +137,6 @@ sitemap:
   path:
     - sitemap.xml
   rel: false
+
+preloader:
+  enable: true
