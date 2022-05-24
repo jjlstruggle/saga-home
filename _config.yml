@@ -137,6 +137,3 @@ sitemap:
   path:
     - sitemap.xml
   rel: false
-
-preloader:
-  enable: true

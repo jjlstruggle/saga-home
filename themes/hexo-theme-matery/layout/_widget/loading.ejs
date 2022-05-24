@@ -1,0 +1,19 @@
+<% if (theme.preloader.enable) { %>
+<div id="loading-box">
+  <div class="loading-container">
+    <div class="point"></div>
+    <div class="point"></div>
+    <div class="point"></div>
+    <div class="point"></div>
+    <div class="point"></div>
+  </div>
+</div>
+<!-- 页面加载动画 -->
+<script>
+  $(document).ready(function() {
+    document.body.style.overflow = 'auto';
+    $('#loading-box').html("")
+    $('#loading-box').hide()
+  })
+</script>
+<% } %>
