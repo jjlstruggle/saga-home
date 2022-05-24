@@ -79,17 +79,6 @@ ignore:
 
 theme: hexo-theme-matery
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: baidu_url_submitter
-
-baidu_url_submit:
-  count: 80
-  host: www.jialestudy.xyz
-  token: ue0VlxGx5ni399LQ
-  path: baidusitemap.xml
-
 search:
   path: search.xml
   field: post
