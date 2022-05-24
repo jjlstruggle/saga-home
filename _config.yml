@@ -97,7 +97,7 @@ githubEmojis:
 lazyload:
   enable: true
   onlypost: false
-  loadingImg: /medias/lazyload.gif
+  loadingImg: /saga-home/medias/lazyload.gif
 
 prism_plugin:
   mode: "preprocess" # realtime/preprocess
