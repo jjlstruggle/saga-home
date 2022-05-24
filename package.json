@@ -13,7 +13,7 @@
     "version": "6.2.0"
   },
   "dependencies": {
-    "@babel/core": "^7.17.12",
+    "@babel/core": "^7.18.0",
     "babel-preset-es2015": "^6.24.1",
     "del": "^6.1.0",
     "gulp": "^4.0.2",
