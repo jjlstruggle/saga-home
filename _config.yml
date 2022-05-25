@@ -11,7 +11,7 @@ timezone: ""
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://www.jialestudy.xyz/saga-home/
 root: /saga-home/
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -135,3 +135,7 @@ sitemap:
 
 baidusitemap:
   path: baidusitemap.xml
+
+abbrlink:
+  alg: crc16
+  rep: dec
