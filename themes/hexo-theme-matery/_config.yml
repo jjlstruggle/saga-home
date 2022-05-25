@@ -321,19 +321,17 @@ tcaptcha:
   enable: true
   appid: xxxxxxxxxx # 你的appid
 
-# The configuration of the Valine comment module is not activated by default.
-# To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: false
-  appId:
-  appKey:
+  enable: true
+  appId: RTmqJoW0x9Ji7W5Q8Ygwotnq-gzGzoHsz
+  appKey: w4uyFIqK38YPqYz6FzD1K0rR
   notify: false
   verify: false
   visitor: true
-  avatar: "mm" # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  avatar: "mm"
   pageSize: 10
-  placeholder: "just go go" # Comment Box placeholder
+  placeholder: "say everything you want" # Comment Box placeholder
   background: /medias/comment_bg.png
   coolpushkey:
 
@@ -381,8 +379,6 @@ verifyPassword:
   promptMessage: 请输入访问本文章的密码
   errorMessage: 密码错误，将返回主页！
 
-# busuanzi(http://busuanzi.ibruce.info/) website statistics
-# 不蒜子(http://busuanzi.ibruce.info/) 网站统计
 busuanziStatistics:
   enable: true
   totalTraffic: true # 总访问量
