@@ -1,8 +1,13 @@
 ---
 title: 关于BrowserRouter路由打包刷新页面404问题
 category: nginx
-tags: [study, nginx, apache]
-date: 2021-7-20 16:21:46
+tags:
+  - study
+  - nginx
+  - apache
+keywords: history路由刷新静态资源404，history路由刷新后页面404，BrowserRouter 刷新页面404
+abbrlink: 14084
+date: 2021-07-20 16:21:46
 ---
 
 ## 问题描述
@@ -13,7 +18,7 @@ date: 2021-7-20 16:21:46
 
 - hash 路由：监听 url 中 hash 的变化(也就是监听#后面内容的变化)，然后渲染不同的内容，这种路由不向服务器发送请求，不需要服务端的支持；
 
-- history 路由：监听 url 中的路径变化(监听整个 url)，需要客户端和服务端共同的支持；
+- history 路由：使用 h5 history API 监听 url 中的路径变化(监听整个 url)，需要客户端和服务端共同的支持；
 
 目前单页面应用打包后入口文件应该是根目录下的 index.html 文件,所以使用 history 路由时刷新浏览器后，是真实地向服务器发送了一个 http 的网页请求，请求默认为 xxx/index.html，此时会因为找不到该文件而 404。
 

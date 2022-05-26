@@ -1,8 +1,13 @@
 ---
 title: 简易使用IntersectionObserver API
 category: js
-tags: [study, js]
-date: 2022-5-23 23:15:00
+tags:
+  - study
+  - js
+aimg: /medias/article/1.webp
+keywords: IntersectionObserver，IntersectionObserver API，IntersectionObserver简易使用
+abbrlink: 11826
+date: 2022-05-23 23:15:00
 ---
 
 ## IntersectionObserver
@@ -101,6 +106,7 @@ const imgs = [...document.querySelectorAll("img")];
 
 const intersectionObserver = new IntersectionObserver(function (entries) {
   entries.forEach(({ target, isIntersecting }, index) => {
+    // 解构出target和isIntersecting,target是触发的元素,isIntersecting是是否交叉
     isIntersecting &&
       (target.src = srcs[index]) &&
       intersectionObserver.unobserve(target);

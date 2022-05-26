@@ -1,8 +1,12 @@
 ---
 title: Vue响应式原理浅析
 category: vue
-tag: [study, vue, js]
-date: 2021-4-24 21:45:21
+tag:
+  - study
+  - vue
+  - js
+abbrlink: 21776
+date: 2021-04-24 21:45:21
 ---
 
 > 什么是响应式？
