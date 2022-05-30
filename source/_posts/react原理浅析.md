@@ -93,6 +93,23 @@ workInProgressFiber.alternate === currentFiber;
 
 > react hooks 就是在当前组件对应的 fiber 节点上存放了 memorizedState 链表，每个 hook 都从对应的链表节点上存取自己的值。
 
+```js
+// 一个hooks应该有这些属性
+const hook = {
+  memoizedState: null, // 不同Hooks储存不同的值,比如callback或者state
+
+  baseState: null,
+  baseQueue: null,
+  queue: null, // 用于保存促使组件render的update
+
+  next: null, // 指向一下个hooks
+};
+```
+
+> 需要注意的是组件 mount 阶段和 update 阶段调用的 hook 是两个不同的函数
+
+[ReactFiberHooks.new.js](https://github.com/acdlite/react/blob/1fb18e22ae66fdb1dc127347e169e73948778e5a/packages/react-reconciler/src/ReactFiberHooks.new.js#L546)
+
 ## 2. react hooks 中的闭包陷阱
 
 react hooks 的闭包陷阱常指 useEffect useCallback 这类 hooks 回调内部引用某个 state，但是未将其添加到依赖项里导致无法获取到最新的 state。
