@@ -312,6 +312,7 @@ fetch(baseUrl + "/imgDataSource")
 let form = new FormData();
 files.forEach((file) => form.append("file", file));
 fetch(baseUrl + "/upload", {
+  method: "POST",
   body: file,
 })
   .then((res) => res.json())
@@ -319,6 +320,7 @@ fetch(baseUrl + "/upload", {
 
 // 这里id为前端调上传图片时接口返回的id
 fetch(baseUrl + "/removeImg", {
+  method: "POST",
   body: { id },
 })
   .then((res) => res.json())
