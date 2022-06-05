@@ -6,8 +6,9 @@ tags:
   - js
   - nodejs
 keywords: 图床，eggjs，
-date: 2022-06-05 21:59:10
 aimg: /medias/article/2.webp
+abbrlink: 63677
+date: 2022-06-05 21:59:10
 ---
 
 # nodejs 简单搭建一个图床
