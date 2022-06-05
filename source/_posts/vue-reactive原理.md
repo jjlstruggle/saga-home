@@ -7,6 +7,7 @@ tag:
   - js
 abbrlink: 21776
 date: 2021-04-24 21:45:21
+img: /medias/preview/vue.webp
 ---
 
 > 什么是响应式？

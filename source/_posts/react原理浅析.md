@@ -8,6 +8,7 @@ tag:
 abbrlink: 21598
 date: 2022-05-25 20:40:21
 aimg: /medias/article/2.webp
+img: /medias/preview/react.webp
 ---
 
 # _***一点杂谈 about Reactjs***_

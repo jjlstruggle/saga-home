@@ -8,6 +8,7 @@ tags:
 keywords: history路由刷新静态资源404，history路由刷新后页面404，BrowserRouter 刷新页面404
 abbrlink: 14084
 date: 2021-07-20 16:21:46
+img: /medias/preview/nginx.webp
 ---
 
 ## 问题描述
