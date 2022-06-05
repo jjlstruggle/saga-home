@@ -12,16 +12,15 @@
         <script src="<%- url_for(theme.libs.js.typed) %>"></script>
         <script>
           var typed = new Typed("#subtitle", {
-              strings: [
-                  <% theme.subtitle.sub.forEach(function(item){%>
-                      "<%= item %>",
-                  <% }) %>
-              ],
-              startDelay: <%= theme.subtitle.startDelay %>,
-              typeSpeed: <%= theme.subtitle.typeSpeed %>,
-              loop: <%= theme.subtitle.loop %>,
-              backSpeed: <%= theme.subtitle.backSpeed %>,
-              showCursor: <%= theme.subtitle.showCursor %>
+            strings: [
+              <% theme.subtitle.sub.forEach(function(item){%> "<%= item %>",
+              <% }) %>
+            ],
+            startDelay: <%= theme.subtitle.startDelay %>,
+            typeSpeed: <%= theme.subtitle.typeSpeed %>,
+            loop: <%= theme.subtitle.loop %>,
+            backSpeed: <%= theme.subtitle.backSpeed %>,
+            showCursor: <%= theme.subtitle.showCursor %>
           });
         </script>
         <% } else { %> <%= config.description %> <% } %>
@@ -41,6 +40,6 @@
 </script>
 <% } else { %>
 <script>
-  $('.bg-cover').css('background-image', 'url(<%- theme.jsDelivr.url %><%- url_for('/medias/banner/0.jpg') %>)');
+  $('.bg-cover').css('background-image', 'url(<%- theme.jsDelivr.url %><%- url_for('/medias/banner/0.webp') %>)');
 </script>
 <% } %>
