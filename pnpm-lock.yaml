@@ -14,7 +14,7 @@ specifiers:
   hexo-generator-search: ^2.4.3
   hexo-generator-sitemap: ^3.0.1
   hexo-generator-tag: ^1.0.0
-  hexo-lazyload-image: ^1.0.10
+  hexo-lazylaod-imagev2: ^1.0.0
   hexo-neat: ^1.0.9
   hexo-permalink-pinyin: ^1.1.0
   hexo-renderer-ejs: ^2.0.0
@@ -39,7 +39,7 @@ dependencies:
   hexo-generator-search: registry.npmmirror.com/hexo-generator-search/2.4.3
   hexo-generator-sitemap: 3.0.1
   hexo-generator-tag: registry.npmmirror.com/hexo-generator-tag/1.0.0
-  hexo-lazyload-image: registry.npmmirror.com/hexo-lazyload-image/1.0.10
+  hexo-lazylaod-imagev2: 1.0.0
   hexo-neat: 1.0.9
   hexo-permalink-pinyin: registry.npmmirror.com/hexo-permalink-pinyin/1.1.0
   hexo-renderer-ejs: registry.npmmirror.com/hexo-renderer-ejs/2.0.0
@@ -1047,6 +1047,10 @@ packages:
     engines: {node: '>= 0.10.0'}
     dependencies:
       sprintf-js: 1.1.2
+    dev: false
+
+  /hexo-lazylaod-imagev2/1.0.0:
+    resolution: {integrity: sha512-uWVYO4l3IcVCNnh1nScJy9p/Yp9gm2JfMJSpaXL2yICd8b70bzoAg0zX9dfzFO3Ee3TyyJwKzRf60kNeP/ti0w==}
     dev: false
 
   /hexo-log/0.2.0:
@@ -4206,14 +4210,6 @@ packages:
       sprintf-js: registry.npmmirror.com/sprintf-js/1.1.2
     dev: false
 
-  registry.npmmirror.com/hexo-lazyload-image/1.0.10:
-    resolution: {integrity: sha512-sbmO1b4GOEK2zshHAlPfPC9ZCpcAZ7E9PEeZkgDyHKoVjUwSQy6noQfejYiC48j9TV3/Bvyscx4ESol8PXVBEQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hexo-lazyload-image/-/hexo-lazyload-image-1.0.10.tgz}
-    name: hexo-lazyload-image
-    version: 1.0.10
-    dependencies:
-      uglify-js: registry.npmmirror.com/uglify-js/3.15.5
-    dev: false
-
   registry.npmmirror.com/hexo-log/2.0.0:
     resolution: {integrity: sha512-U7zdDae74pXcyhQEyNmpJdq3UI6zWKxQ7/zLoMr/d3CBRdIfB5yO8DWqKUnewfibYv0gODyTWUIhxQDWuwloow==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hexo-log/-/hexo-log-2.0.0.tgz}
     name: hexo-log
@@ -5756,14 +5752,6 @@ packages:
     resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/uc.micro/-/uc.micro-1.0.6.tgz}
     name: uc.micro
     version: 1.0.6
-    dev: false
-
-  registry.npmmirror.com/uglify-js/3.15.5:
-    resolution: {integrity: sha512-hNM5q5GbBRB5xB+PMqVRcgYe4c8jbyZ1pzZhS6jbq54/4F2gFK869ZheiE5A8/t+W5jtTNpWef/5Q9zk639FNQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/uglify-js/-/uglify-js-3.15.5.tgz}
-    name: uglify-js
-    version: 3.15.5
-    engines: {node: '>=0.8.0'}
-    hasBin: true
     dev: false
 
   registry.npmmirror.com/underscore/1.13.3:
