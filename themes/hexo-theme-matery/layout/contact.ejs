@@ -66,13 +66,11 @@
           </div>
         </section>
       </div>
-
       <script type="text/javascript">
         AV.init({
           appId: '<%- theme.valine.appId %>',
           appKey: '<%- theme.valine.appKey %>'
         });
-
         $(function() {
           do_barrager();
           async function do_barrager() {
@@ -102,7 +100,6 @@
             }, 500)
           }
         });
-
         //发送弹幕
         function run() {
           let info = $('input[name=info]').val();
@@ -131,5 +128,10 @@
       <% } %>
     </div>
 
+    <!--其他评论card-->
+    <div class="card">
+
+
+    </div>
   </div>
 </main>

@@ -17,7 +17,6 @@
   }
 
   /* 一下是按钮样式 */
-
   .frind-ship {
     padding: 10px 20px;
   }
@@ -235,14 +234,16 @@
     <% } %>
 
     <div class="card">
+
       <% if (theme.valine && theme.valine.enable) { %>
       <%- partial('_partial/valine') %>
       <% } %>
+
     </div>
   </div>
 </main>
 
-<script>
+<script defer>
   $(function() {
     $('#friends-link').masonry({
       itemSelector: '.friend-div'
