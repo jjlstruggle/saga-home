@@ -18,6 +18,10 @@ jobs:
         run: npm i
       - name: Run build task
         run: yarn build
+      - name: install squoosh tool
+        run: yarn add font-spider g
+      - name: squoosh font
+        run: font-spider /blog/index.html
       - name: ssh deploy
         uses: easingthemes/ssh-deploy@v2.2.11
         env:
