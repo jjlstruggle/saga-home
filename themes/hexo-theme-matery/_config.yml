@@ -202,7 +202,7 @@ clicklove:
 # 是否激活页面樱花效果, 只在桌面版网页启用特效
 # 下面三种特效建议选择一种就够了，
 sakura:
-  enable: true
+  enable: false
 
 # 是否激活页面鼠标星星跟随效果, 只在桌面版网页启用特效
 mouseStar:
@@ -210,7 +210,7 @@ mouseStar:
 
   # 是否激活页面飘雪效果, 只在桌面版网页启用特效
 snowdown:
-  enable: false
+  enable: true
 
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
