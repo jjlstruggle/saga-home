@@ -253,8 +253,8 @@
   </div>
 </div>
 
-<script defer src="<%- theme.jsDelivr.url %><%- url_for('/libs/valine/av-min.js') %>"></script>
-<script defer src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.valine) %>"></script>
+<script async src="<%- theme.jsDelivr.url %><%- url_for('/libs/valine/av-min.js') %>"></script>
+<script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.valine) %>"></script>
 <script defer>
   new Valine({
     el: '#vcomments',
