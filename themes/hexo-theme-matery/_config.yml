@@ -355,10 +355,6 @@ libs:
     valine: /libs/valine/Valine.min.js # 若想保持最新版，请替换为 https://unpkg.com/valine/dist/Valine.min.js  默认为 /libs/valine/Valine.min.js
     jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
     tocbot: /libs/tocbot/tocbot.min.js
-    canvas_nest: /libs/background/canvas-nest.js
-    ribbon: /libs/background/ribbon.min.js
-    ribbonRefresh: /libs/background/ribbon-refresh.min.js
-    ribbon_dynamic: /libs/background/ribbon-dynamic.js
     instantpage: /libs/instantpage/instantpage.js
     mermaid: /libs/mermaid/mermaid.min.js
     fancybox: /libs/fancybox/fancybox.js
@@ -394,26 +390,6 @@ tidio:
 tuxiaochao:
   enable: false
   productId:
-#背景canvas-nest
-canvas_nest:
-  enable: false
-  color: 0,0,255 # 线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
-  pointColor: 0,0,255 # 交点颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
-  opacity: 0.7 # 线条透明度（0~1）, 默认: 0.5
-  zIndex: -1 # 背景的 z-index 属性，css 属性用于控制所在层的位置, 默认: -1.
-  count: 49 # 线条的总数量, 默认: 99
-
-# 背景静止彩带.
-ribbon:
-  enable: false
-  size: 150 # 彩带大小, 默认: 90.
-  alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
-  zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
-  clickChange: false # 设置是否每次点击都更换彩带.
-
-# 背景动态彩带.
-ribbon_dynamic:
-  enable: false
 
 # sharejs文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
