@@ -444,8 +444,8 @@ jsDelivr:
 
 # 网站背景图
 background:
-  enable: true
-  url: /saga-home/medias/cover.webp
+  enable: false
+  url:
 
 # 说说 https://artitalk.js.org/
 artitalk:
