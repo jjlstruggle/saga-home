@@ -110,7 +110,7 @@
       <% } %>
       <br />
       <% if (theme.icp.enable) { %>
-      <span id="icp"><img no-lazy src="<%- theme.jsDelivr.url %><%- url_for('/medias/icp.png') %>" style="vertical-align: text-bottom" />
+      <span id="icp"><img alt="图片加载失败，请尝试刷新" no-lazy src="<%- theme.jsDelivr.url %><%- url_for('/medias/icp.png') %>" style="vertical-align: text-bottom" />
         <a href="<%- url_for(theme.icp.url) %>" target="_blank"><%= theme.icp.text %></a>
       </span>
       <% } %>
