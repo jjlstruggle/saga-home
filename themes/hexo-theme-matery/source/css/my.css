@@ -10,3 +10,9 @@
 .nav-item:hover .sa-nav {
   color: #1890ff;
 }
+body {
+  cursor: url(../cur/Arrow.cur), default;
+}
+a:hover {
+  cursor: url(../cur/Button.cur), pointer;
+}
