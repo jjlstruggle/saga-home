@@ -413,7 +413,7 @@ ribbon:
 
 # 背景动态彩带.
 ribbon_dynamic:
-  enable: true
+  enable: false
 
 # sharejs文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
@@ -469,7 +469,7 @@ jsDelivr:
 # 网站背景图
 background:
   enable: true
-  url: /medias/cover.webp
+  url: /saga-home/medias/cover.webp
 
 # 说说 https://artitalk.js.org/
 artitalk:
