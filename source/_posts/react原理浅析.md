@@ -114,7 +114,9 @@ const hook = {
 
 ## 2. react hooks 中的闭包陷阱
 
-react hooks 的闭包陷阱常指 useEffect useCallback 这类 hooks 回调内部引用某个 state，但是未将其添加到依赖项里导致无法获取到最新的 state。
+react hooks 的闭包陷阱常指 useEffect useCallback 这类 hooks 回调内部引用某个 state，但是未将其添加到依赖项里导致无法获取到最新的 state。观看下面的源码，就可以知道闭包陷阱是怎么产生的了。
+
+<img src="http://121.40.19.111:7002/cdn/image/20220608/1654672772615.webp" style="zoom:150%;" />
 
 ## **3. 参考链接 🔗**
 
