@@ -4,7 +4,8 @@ category: js
 tags:
   - study
   - js
-keywords: 前端基础，js，promise,map
+keywords: '前端基础，js，promise,map'
+abbrlink: 57699
 date: 2020-12-20 12:36:47
 updated: 2020-12-24 19:27:02
 ---
