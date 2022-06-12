@@ -255,7 +255,7 @@
 
 <script src="<%- theme.jsDelivr.url %><%- url_for('/libs/valine/av-min.js') %>"></script>
 <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.valine) %>"></script>
-<script>
+<script defer>
   new Valine({
     el: '#vcomments',
     appId: '<%- theme.valine.appId %>',
@@ -272,7 +272,7 @@
 
 <!--酷Q推送-->
 <% if (theme.valine.coolpushkey && theme.valine.coolpushkey > 1) { %>
-<script>
+<script defer>
   var pushLink = "https://push.xuthus.cc/send/<%- theme.valine.coolpushkey %>";
   var siteName = "<%- config.title %>'s Blog";
   var valineButton = document.getElementsByClassName("vsubmit vbtn")[0];
