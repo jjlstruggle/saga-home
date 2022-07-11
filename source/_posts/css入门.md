@@ -1,3 +1,14 @@
+---
+title: css入门
+category: css
+tags:
+  - study
+  - css
+keywords: '前端基础，css，css入门'
+abbrlink: 57699
+date: 2020-12-20 12:36:47
+updated: 2020-12-24 19:27:02
+---
 # CSS（层叠样式表）
 
 > CSS（层叠样式表）用于设置和布置网页 - 例如，更改内容的字体，颜色，大小和间距，将其拆分为多个列，或添加动画和其他装饰功能。
