@@ -13,7 +13,7 @@
     "version": "6.2.0"
   },
   "dependencies": {
-    "@babel/core": "^7.18.6",
+    "@babel/core": "^7.18.9",
     "babel-preset-es2015": "^6.24.1",
     "del": "^6.1.1",
     "hexo": "^6.2.0",
